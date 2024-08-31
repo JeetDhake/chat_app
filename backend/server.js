@@ -12,5 +12,5 @@ app.get('/api/chat/:id', (req, res) => {
     res.send(singlechat);
 });
 
-const port = process.env.PORT || 7000;
+const port = process.env.PORT || 4000;
 app.listen(port, console.log(`SERVER RUNNING: http://localhost:${port}/`));
